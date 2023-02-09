@@ -15,6 +15,7 @@ namespace AdvAddressBookSystem
         /// Gets the connection.
         /// </summary>
         /// <returns></returns>
+        
         public SqlConnection GetConnection()
         {
             //making connection string
