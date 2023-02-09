@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdvAddressBookSystem
 {
+
     public class AddressBookContactDetails
     {
         public int contactID { get; set; }
