@@ -86,6 +86,7 @@ namespace AddressBookADO.NET_TEST
         /// <summary>
         /// Checkings for getting contact details for particular city. UC19
         /// </summary>
+        
         [TestMethod]
         public void CheckingForGettingContactDetailsForParticularCity()
         {
@@ -101,7 +102,7 @@ namespace AddressBookADO.NET_TEST
             //assert for comparing list
             CollectionAssert.AreEqual(contactDetailsActual, contactDetailsExpected);
         }
-
     }
+
 }
     
