@@ -1,5 +1,6 @@
 alter table AddressBook
 add dateAdded date
+
 select * from AddressBook
 
 update AddressBook
@@ -20,6 +21,4 @@ where firstname='Sumit';
 update AddressBook
 set dateAdded= Cast('2018-07-06' as date)
 where firstname='Sai';
-
-
 select * from addressbook where dateadded between cast('2019-01-01' as date) and cast('2020-01-01' as date)
