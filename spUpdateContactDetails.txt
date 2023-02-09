@@ -10,7 +10,6 @@ create procedure spUpdateContactDetails
 @email varchar(50),
 @addressbookname varchar(30)
 )
-
 as
 begin
 update a
@@ -21,4 +20,5 @@ on a.contactid= b.contactid
 join AddressBookNames c
 on c.addressBookId = b.addressbookid
 where a.firstName=@firstname and a.lastname=@lastname and c.addressBookName= @addressbookname
+
 end
