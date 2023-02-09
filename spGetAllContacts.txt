@@ -13,5 +13,4 @@ join TypesOfContacts e
 on e.typeid= d.typeid
 end
 
-
 exec spGetAllContacts
