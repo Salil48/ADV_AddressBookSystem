@@ -1,6 +1,5 @@
 alter table AddressBook
 add dateAdded date
-
 select * from AddressBook
 
 update AddressBook
