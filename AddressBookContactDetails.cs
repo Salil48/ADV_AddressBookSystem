@@ -8,7 +8,6 @@ namespace AdvAddressBookSystem
 {
     public class AddressBookContactDetails
     {
-
         public int contactID { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -40,8 +39,5 @@ namespace AdvAddressBookSystem
         {
             return this.firstName.GetHashCode() ^ this.lastName.GetHashCode() ^ this.address.GetHashCode() ^ this.city.GetHashCode() ^ this.state.GetHashCode() ^ this.zip.GetHashCode() ^ this.phoneNo.GetHashCode() ^ this.eMail.GetHashCode() ^ this.addressBookName.GetHashCode();
         }
-
     }
-
-
 }
