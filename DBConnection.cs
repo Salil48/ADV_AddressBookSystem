@@ -23,6 +23,8 @@ namespace AdvAddressBookSystem
             //making sql connection
             SqlConnection connection = new SqlConnection(con);
             return connection;
+
         }
+
     }
 }
